@@ -20,9 +20,9 @@ const LandingPage = () => {
         <div className="fixed inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/20" /> 
 
         {/* 🔝 NAVBAR */}
-        <div className="fixed top-0 w-full flex justify-between items-center px-6 py-4 z-20">
-          <h1 className="text-4xl font-bold">🏏<span className="text-blue-600 underline">Cric</span>
-          <span className="text-green-600 underline">Hub</span></h1>
+        <div className="absolute top-0 w-full flex justify-between items-center px-6 py-4 z-20">
+          <h1 className="text-4xl font-bold">🏏<span className="text-blue-600 ">Cric</span>
+          <span className="text-green-600 ">Hub</span></h1>
 
           <div className="space-x-4">
             <button onClick={() => navigate("/login")} className="hover:underline">
